@@ -1,0 +1,859 @@
+@media only screen and (min-width: 360px) and (max-width:480px) {
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .Navigation-Section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .Navigation-Section input {
+        visibility: hidden;
+    }
+    
+    .Navigation-Section p {
+        margin-top: 17px;
+        font-size: 9px;
+        width: 60%;
+        cursor: pointer;
+    
+    }
+
+    
+.Second-Navigation {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    align-items: center;
+    background-color: rgb(218, 213, 213);
+    font-weight: 800;
+    font-size: 6px;
+    width: 100%;
+}
+
+.Second-Navigation p:hover {
+    border-bottom: 2px solid teal;
+    cursor: pointer;
+
+}
+
+.Second-Navigation img {
+    width: 5%;
+
+}
+
+.Lens-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 11px;
+
+}
+
+.Lens-section img {
+    width: 21%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.main-section img {
+    width: 100%;
+}
+
+.Cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.Cart .Card {
+    text-align: center;
+}
+
+.Cart .Card img {
+    width: 45%;
+}
+
+.Card button {
+    width: 50px;
+    height: 18px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 2px;
+    font-size: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Card p {
+    font-size: 10px;
+    padding: 4px;
+}
+
+.Banner h2 {
+    text-align: center;
+    padding: 22px;
+    font-size: 12px;
+}
+
+.Banner .img img {
+    width: 100%;
+    align-items: center;
+}
+
+.Banner .two-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-img img {
+    width: 44%;
+}
+
+.Footer{
+    display: flex;
+    
+    flex-direction: column;
+}
+.Footer .list {
+    margin: auto;
+
+}
+
+.Footer .list ul {
+    text-align: center;
+    font-size: 12px;
+    cursor: pointer;
+    
+}
+
+
+
+.Footer .list img {
+    
+    display: block;
+    margin: auto;
+    
+
+}
+
+.Second-main {
+    background-color: rgb(244, 84, 67);
+}
+
+.Second-main  img{
+  
+    visibility: hidden;  
+}
+
+
+.Goggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Goggle img {
+    width: 40%;
+    padding: 33px;
+
+}
+
+   
+}
+
+@media only screen and (min-width: 481px) and (max-width:768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .Navigation-Section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .Navigation-Section input {
+        visibility: hidden;
+    }
+    
+    .Navigation-Section p {
+        margin-top: 17px;
+        font-size: 12px;
+        width: 60%;
+    
+    }
+
+    
+.Second-Navigation {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    align-items: center;
+    background-color: rgb(218, 213, 213);
+    font-weight: 800;
+    font-size: 6px;
+    width: 100%;
+}
+
+.Second-Navigation p:hover {
+    border-bottom: 2px solid teal;
+    cursor: pointer;
+
+}
+
+.Second-Navigation img {
+    width: 5%;
+
+}
+
+.Lens-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 11px;
+
+}
+
+.Lens-section img {
+    width: 21%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.main-section img {
+    width: 100%;
+}
+
+.Cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.Cart .Card {
+    text-align: center;
+}
+
+.Cart .Card img {
+    width: 45%;
+}
+
+.Card button {
+    width: 50px;
+    height: 18px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 2px;
+    font-size: 12px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Card p {
+    font-size: 10px;
+    padding: 4px;
+}
+
+.Banner h2 {
+    text-align: center;
+    padding: 22px;
+    font-size: 12px;
+}
+
+.Banner .img img {
+    width: 100%;
+    align-items: center;
+}
+
+.Banner .two-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-img img {
+    width: 44%;
+}
+
+.Footer{
+    display: flex;
+    
+    flex-direction: column;
+   
+}
+.Footer .list {
+    margin: auto;
+
+}
+
+.Footer .list ul {
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+
+
+.Footer .list img {
+    
+    display: block;
+    margin: auto;
+    
+
+}
+
+.Second-main {
+    background-color: rgb(244, 84, 67);
+}
+
+.Second-main  img{
+  
+    visibility: hidden;  
+}
+
+
+.Goggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Goggle img {
+    width: 40%;
+    padding: 33px;
+
+}
+}
+
+@media only screen and (min-width: 769px) and (max-width:1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .Navigation-Section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .Navigation-Section input {
+        visibility: hidden;
+    }
+    
+    .Navigation-Section p {
+        margin-top: 17px;
+        font-size: 14px;
+        width: 60%;
+        cursor: pointer;
+    }
+
+    
+.Second-Navigation {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    align-items: center;
+    background-color: rgb(218, 213, 213);
+    font-weight: 800;
+    font-size: 8px;
+    width: 100%;
+}
+
+.Second-Navigation p:hover {
+    border-bottom: 2px solid teal;
+    cursor: pointer;
+
+}
+
+.Second-Navigation img {
+    width: 5%;
+
+}
+
+.Lens-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 11px;
+
+}
+
+.Lens-section img {
+    width: 21%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.main-section img {
+    width: 100%;
+}
+
+.Cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.Cart .Card {
+    text-align: center;
+}
+
+.Cart .Card img {
+    width: 45%;
+}
+
+.Card button {
+    width: 50px;
+    height: 18px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Card p {
+    font-size: 12px;
+    padding: 4px;
+}
+
+.Banner h2 {
+    text-align: center;
+    padding: 22px;
+    font-size: 14px;
+}
+
+.Banner .img img {
+    width: 100%;
+    align-items: center;
+}
+
+.Banner .two-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-img img {
+    width: 44%;
+}
+
+.Footer{
+    display: flex;
+    
+    flex-direction: column;
+    
+}
+.Footer .list {
+    margin: auto;
+
+}
+
+.Footer .list ul {
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    
+}
+
+
+
+.Footer .list img {
+    
+    display: block;
+    margin: auto;
+    
+
+}
+
+.Second-main {
+    background-color: rgb(244, 84, 67);
+}
+
+.Second-main  img{
+  
+    visibility: hidden;  
+}
+
+
+.Goggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Goggle img {
+    width: 40%;
+    padding: 33px;
+
+}
+   
+}
+
+@media only screen and (min-width: 1025px) and (max-width:1200px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .Navigation-Section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .Navigation-Section input {
+        visibility: hidden;
+    }
+    
+    .Navigation-Section p {
+        margin-top: 17px;
+        font-size: 16px;
+        width: 60%;
+        cursor: pointer;
+    
+    }
+
+    .Navigation-Section img{
+        width: 50%;
+    }
+
+    
+.Second-Navigation {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    padding: 2px;
+    align-items: center;
+    background-color: rgb(218, 213, 213);
+    font-weight: 800;
+    font-size: 10px;
+    width: 100%;
+}
+
+.Second-Navigation p:hover {
+    border-bottom: 2px solid teal;
+    cursor: pointer;
+
+}
+
+.Second-Navigation img {
+    width: 10%;
+
+}
+
+.Lens-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: white;
+    padding: 11px;
+
+}
+
+.Lens-section img {
+    width: 21%;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+.main-section img {
+    width: 100%;
+}
+
+.Cart {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 11px;
+}
+
+.Cart .Card {
+    text-align: center;
+}
+
+.Cart .Card img {
+    width: 45%;
+}
+
+.Card button {
+    width: 50px;
+    height: 18px;
+    color: white;
+    background-color: teal;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.Card p {
+    font-size: 14px;
+    padding: 4px;
+}
+
+.Banner h2 {
+    text-align: center;
+    padding: 22px;
+    font-size: 16px;
+}
+
+.Banner .img img {
+    width: 100%;
+    align-items: center;
+}
+
+.Banner .two-img {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.two-img img {
+    width: 44%;
+}
+
+.Footer{
+    display: flex;
+    
+    flex-direction: column;
+   
+}
+.Footer .list {
+    margin: auto;
+
+}
+
+.Footer .list ul {
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    
+}
+
+
+
+.Footer .list img {
+    
+    display: block;
+    margin: auto;
+    
+
+}
+
+.Goggle {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+}
+
+.Goggle img {
+    width: 40%;
+    padding: 33px;
+
+}
+   
+   
+}
+
+@media only screen and (min-width: 1201px) {
+    * {
+        margin: 0;
+        padding: 0;
+        overflow-x: hidden;
+        font-family: 'Ubuntu', sans-serif;
+    }
+    
+    .Navigation-Section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .Navigation-Section input {
+        width: 300px;
+        height: 27px;
+        border-radius: 3px;
+        text-align: center;
+        border: 2px solid grey;
+        margin-top: 16px;
+    }
+    
+    .Navigation-Section p {
+        margin-top: 17px;
+        font-size: 17px;
+        cursor: pointer;
+    
+    }
+    
+    
+    .Second-Navigation {
+        display: flex;
+        justify-content: space-around;
+        padding: 11px;
+        align-items: center;
+        background-color: rgb(218, 213, 213);
+        font-weight: 800;
+    }
+    
+    .Second-Navigation p:hover {
+        border-bottom: 2px solid teal;
+        cursor: pointer;
+    
+    }
+    
+    .Second-Navigation img {
+        width: 6%;
+    
+    }
+    
+    .Lens-section {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: white;
+        padding: 11px;
+    
+    }
+    
+    .Lens-section img {
+        width: 21%;
+        border: 2px solid white;
+        border-radius: 5px;
+    }
+    
+    .main-section img {
+        width: 100%;
+    }
+    
+    .Cart {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 11px;
+    }
+    
+    .Cart .Card {
+        text-align: center;
+    }
+    
+    .Cart .Card img {
+        width: 70%;
+    }
+    
+    .Card button {
+        width: 100px;
+        height: 33px;
+        color: white;
+        background-color: teal;
+        border: none;
+        border-radius: 2px;
+        font-size: 16px;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    
+    .Card p {
+        font-size: 18px;
+        padding: 4px;
+    }
+    
+    .Banner h2 {
+        text-align: center;
+        padding: 22px;
+    }
+    
+    .Banner .img img {
+        width: 100%;
+    }
+    
+    .Banner .two-img {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+    
+    .two-img img {
+        width: 44%;
+    }
+    
+    .Footer {
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(5, 76, 76);
+        color: white;
+        padding: 43px;
+    }
+    
+    .Footer .list {
+        margin-left: 5%;
+    }
+    
+    .Footer .list ul {
+        list-style: none;
+    }
+    
+    .Footer .list ul li {
+    
+        padding: 10px;
+        cursor: pointer;
+    }
+    
+    .Footer .list img {
+        width: 50%;
+        padding: 10px;
+        cursor: pointer;
+    
+    }
+    
+    .Goggle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    
+    }
+    
+    .Goggle img {
+        width: 30%;
+        padding: 33px;
+    
+    }
+   
+}
+
+
